@@ -3,12 +3,14 @@ SNHU CS350 Thermostat Project
 
 Summarize the project and what problem it was solving.
 
-  The goal of this project was to design a low-level thermostat prototype on the TI CC3320x LAUNCHXL circuit board using Code Composer Studio. 
+  The goal of this gpiointerrupt.c project was to design a low-level thermostat prototype on the TI CC3320x LAUNCHXL circuit board using Code Composer Studio. 
 From the assignment: "For the prototype, you will use the TMP006 temperature sensor to read the room temperature (via I2C), an LED to indicate the output to the thermostat where LED on = heat on (via GPIO), two buttons to increase and decrease the set temperature (via GPIO interrupt), and the UART to simulate the data being sent to the server."
+
+  The goal of the uart2echo.c file was to design code that would turn on an LED light if "ON" was input into the UART, and turn it off if "OFF" was input.
 
 What did you do particularly well?
 
-  Personally, I am most proud of my state machine code. They handle the timer-driven requirements proficiently. I think I did a good job with the commenting, too, but I've been wrong about that before.
+  Personally, I am most proud of my state machine code. I think I did a good job with the commenting, too, but I've been wrong about that before.
 
 Where could you improve?
 
